@@ -46,3 +46,13 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
 }
+
+@media (max-width: 600px) {
+    .calcContainer {
+        padding: 10px;
+    }
+
+    input, select, button {
+        width: 50%; /* Ensure full width on smaller screens */
+    }
+}
